@@ -14,4 +14,6 @@ FIX AT PRINT MODE - GENERATE PDF
 - fix circle and lines
 - reduce margins to make it fit to A4 size
 
-FIX AT TEXT - CUSTOMISE
+SCROLLING
+- Scroll to top button is not scrolling smoothly
+- Same for the items on the menu
