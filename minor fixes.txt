@@ -1,0 +1,17 @@
+- Dark mode - light mode
+	add sun icon when in dark mode, to change to light mode
+
+- Education
+	add space at bottom between education__year and h2
+
+- Skills
+	fix left column, i dont know whats up
+
+- Experience
+	add space at bottom between p tag and h2
+
+FIX AT PRINT MODE - GENERATE PDF
+- fix circle and lines
+- reduce margins to make it fit to A4 size
+
+FIX AT TEXT - CUSTOMISE
