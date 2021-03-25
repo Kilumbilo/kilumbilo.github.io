@@ -144,7 +144,6 @@ body.scale-cv{
 }
 
 .scale-cv .home__icon,
-.scale-cv .social__icon,
 .scale-cv .interests__icon{
   font-size: 1rem;
 }
@@ -219,11 +218,12 @@ a{
 img{
   max-width: 100%;
   height: auto;
+  background-color: transparent;
 }
 
 /*-----Class CSS-------------*/
 .section{
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .section-title{
@@ -395,12 +395,12 @@ img{
 
 /*--social--*/
 .social__container{
-  grid-template-columns: max-content;
-  gap: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .social__link{
-  display: inline-flex;
+  display: flex;
   align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
@@ -411,7 +411,7 @@ img{
 }
 
 .social__icon{
-  font-size: 1.2rem;
+  font-size: 3rem;
   margin-right: .25rem;
 }
 
@@ -474,7 +474,7 @@ img{
 }
 
 .experience__description{
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 /*--Skills and languages--*/
@@ -531,7 +531,7 @@ img{
 /*--Interests--*/
 .interests__container{
   grid-template-columns: repeat(3, 1fr);
-  margin-top: var(--mb-2);
+  margin: var(--mb-2) 0;
 }
 
 .interests__content{
