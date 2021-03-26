@@ -141,6 +141,7 @@ body.scale-cv{
 .scale-cv .home__address,
 .scale-cv .social__container{
   gap: .75rem;
+  align-items: center;
 }
 
 .scale-cv .home__icon,
@@ -218,7 +219,6 @@ a{
 img{
   max-width: 100%;
   height: auto;
-  background-color: transparent;
 }
 
 /*-----Class CSS-------------*/
@@ -395,13 +395,11 @@ img{
 
 /*--social--*/
 .social__container{
-  display: flex;
+  display: inline-block;
   align-items: center;
 }
 
 .social__link{
-  display: flex;
-  align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
