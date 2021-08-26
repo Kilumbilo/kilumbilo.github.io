@@ -416,11 +416,11 @@ img{
 }
 
 /*---Profile---*/
-.experience__description,
+/* .experience__description,
 .certificate__description,
 .profile__description{
   text-align: justify;
-}
+} */
 
 /*---Education and experiance---*/
 .education__content,
@@ -530,7 +530,7 @@ img{
 
 /*--Interests--*/
 .interests__container{
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: var(--mb-2) 0;
 }
 
