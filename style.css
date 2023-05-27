@@ -64,13 +64,13 @@ body.dark-theme {
   right: 0;
   top: 2.2rem;
   display: flex;
-  color: var(--text-color);
-  font-size: 1.2rem;
+  fill: var(--text-color);
+  width: 1.2rem;
   cursor: pointer;
 }
 
 .change-theme:hover {
-  color: var(--title-color);
+  fill: var(--title-color);
 }
 
 /*--font size variable to scale cv---*/
@@ -91,13 +91,13 @@ body.scale-cv {
   position: absolute;
   top: 2.2rem;
   left: 0;
-  font-size: 1.2rem;
-  color: var(--text-color);
+  width: 1.5rem;
+  fill: var(--text-color);
   cursor: pointer;
 }
 
 .generate-pdf:hover {
-  color: var(--title-color);
+  fill: var(--title-color);
 }
 
 /*--Classes modified to reduce size and print on A4--*/
@@ -376,9 +376,10 @@ img {
   font-size: var(--small-font-size);
 }
 
-.home__icon {
-  font-size: 1.2rem;
-  margin-right: 0.25rem;
+.home_icon svg {
+  fill: var(--text-color);
+  width: 1rem;
+  margin-right: 1rem;
 }
 
 .home__button-movil {
@@ -576,8 +577,8 @@ table td {
 }
 
 .interests__icon {
-  font-size: 1.5rem;
-  color: var(--text-color-light);
+  width: 1.5rem;
+  fill: var(--text-color-light);
   margin-bottom: 0.25rem;
 }
 
@@ -590,16 +591,18 @@ table td {
   justify-content: center;
   align-items: center;
   padding: 0.3rem;
-  background-color: var(--container-color-alt);
+  border: 3px solid var(--container-color-alt);
+  background-color: var(--container-color);
   border-radius: 0.4rem;
   z-index: var(--z-toolkit);
   transition: 0.4s;
   visibility: hidden;
+  width: 45px;
 }
 
 .scrolltop__icon {
-  font-size: 1.2rem;
-  color: var(--text-color);
+  width: 1.5rem;
+  fill: var(--text-color);
 }
 
 .show-scroll {
