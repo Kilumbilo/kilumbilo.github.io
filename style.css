@@ -357,10 +357,17 @@ img {
   margin-bottom: var(--mb-1);
   filter: grayscale(100%);
   transition: filter 0.3s ease;
+  cursor: pointer;
 }
 
 .home__img:hover {
   filter: none;
+}
+
+.home__img.enlarged {
+  transform: scale(2); /* Adjust scale as needed */
+  position: relative;
+  z-index: 10;
 }
 
 .home__profession {
