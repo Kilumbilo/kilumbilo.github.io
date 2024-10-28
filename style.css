@@ -355,6 +355,12 @@ img {
   justify-self: center;
   border-radius: 50%;
   margin-bottom: var(--mb-1);
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.home__img:hover {
+  filter: none;
 }
 
 .home__profession {
