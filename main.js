@@ -129,3 +129,8 @@ function removeScale(){
   setTimeout(removeScale, 5000)
 
 })
+
+/*--Toggle Enlarge Image --*/
+function toggleEnlarge(image) {
+  image.classList.toggle("enlarged");
+}
